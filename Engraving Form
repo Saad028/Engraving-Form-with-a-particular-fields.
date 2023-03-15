@@ -1,0 +1,153 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Butcherman&family=Caveat:wght@400;500;600;700&family=Creepster&family=Dancing+Script:wght@400;500;600;700&family=Dr+Sugiyama&family=Flavors&family=Fredoka+One&family=Kanit:wght@100;200;300&family=Kaushan+Script&family=Mea+Culpa&family=Monoton&family=Moo+Lah+Lah&family=Nosifer&family=Pacifico&family=Rampart+One&family=Roboto:wght@100;400&family=Rubik+Beastly&family=Rubik+Bubbles&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&family=Sacramento&family=Sedgwick+Ave+Display&family=Titan+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+ 
+ <!-- custom-code start -->
+ {% if product.type == "Tungsten Rings" %}
+
+	<div id="PdpForm3" class="row desc "></div>
+
+	<div id="PdpForm2" class="row  desc" style="display:none;">
+   <label class="engravcost" style="color:#d64941;"><b>Engraving Cost = $30</b></label>
+      <p class="line-item-property__field">
+        <label>Engraving Position</label><br>
+        <input  type="radio" id="prop-engraving" name="properties[Engraving Position]" value="Inside"> <span class="insideoutside">Inside</span>
+        <input  type="radio" id="prop-engraving" name="properties[Engraving Position]" value="Outside"> <span class="insideoutside">Outside</span><br>
+      </p>
+   
+  <p class="line-item-property__field"> 
+   <label for="your-name-for-engraving"><b>Engraving Name</b></label>
+	<input class="required" id="your-name-for-engraving" type="text" name="properties[Engraving Name]" minlength="5" maxlength="15">
+  </p>
+
+<p class="line-item-property__field">
+	<div class="dropdownClass line-item-property__field">
+    <label for="your-name-for-engraving"><b>Font-Style</b></label>
+ 		<a href="javascript:;" class="line-item-property__field"id="selectedFont" name="properties[Font_Style]"><span>Select Fonts</span> <i class="fa fa-arrow-down right-float"></i></a>
+ 		<div class="clearFix"></div>
+  	<ul class="fontFamilyList line-item-property__field hidden">
+		<li><a href="javascript:;" data-font="'Ballet', cursive" style="font-family:'Ballet', cursive" name="properties[Font_Style]">Ballet (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Butcherman', cursive" style="font-family: 'Butcherman', cursive">Butcherman (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="''Caveat', cursive" style="font-family: 'Caveat', cursive;">Caveat (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Creepster', cursive" style="font-family: 'Creepster', cursive;">Creepster (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Dancing Script', cursive" style="font-family: 'Dancing Script', cursive">Dancing Script (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Dr Sugiyama', cursive" style="font-family: 'Dr Sugiyama', cursive;">Dr Sugiyama (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Flavors', cursive" style="font-family: 'Flavors', cursive;">Flavors (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Fredoka One', cursive" style="font-family: 'Fredoka One', cursive;">Fredoka One (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Kanit', sans-serif;" style="font-family: 'Kanit', sans-serif;">Kanit (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Kaushan Script', cursive" style="font-family: 'Kaushan Script', cursive;">Kaushan Script (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Mea Culpa', cursive" style="font-family: 'Mea Culpa', cursive;">Mea Culpa (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Monoton', cursive" style="font-family: 'Monoton', cursive;">Monoton (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Moo Lah Lah', cursive;" style="font-family: 'Moo Lah Lah', cursive;">Moo Lah Lah (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Nosifer', cursive" style="font-family: 'Nosifer', cursive;">Nosifer (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Pacifico', cursive" style="font-family: 'Pacifico', cursive;">Pacifico (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Rampart One', cursive" style="font-family: 'Rampart One', cursive;">Rampart One (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Roboto', sans-serif" style="font-family: 'Roboto', sans-serif;">Roboto (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Rubik Beastly', cursive" style="font-family: 'Rubik Beastly', cursive;">Rubik Beastly (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Rubik Marker Hatch', cursive" style="font-family: 'Rubik Bubbles', cursive;">Rubik Bubbles (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Rubik Wet Paint', cursive;" style="font-family: 'Rubik Wet Paint', cursive;">Rubik Wet Paint (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Sacramento', cursive" style="font-family: 'Sacramento', cursive;">Sacramento (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Sedgwick Ave Display', cursive" style="font-family: 'Sedgwick Ave Display', cursive;">Sedgwick Ave Display (cursive)</a></li>
+	    <li><a href="javascript:;" data-font="'Titan One', cursive" style="font-family: 'Titan One', cursive;">Titan One (cursive)</a></li>
+	  </ul>
+	</div>
+</p>
+   
+      <p class="line-item-property__field">
+	      <label for="print-name-for-engraving"><b>Engraving Preview</b></label><br>
+	      <span id="print-name-for-engraving" name="properties[Engraving Preview]"></span>
+      </p>
+
+      
+    </div>
+
+   {% if section.settings.show_quantity_selector %}
+    <div class="product-form__item product-form__quantity-selector">
+      <label class="product-form__quantity-label{% unless section.settings.show_variant_labels %} product-form__quantity-label--hidden{% endunless %}" for="Quantity-{{ section.id }}">{{ 'products.product.quantity' | t }}</label>
+      <input class="product-form__quantity-input" type="number" id="Quantity-{{ section.id }}" name="quantity" value="1" min="1" pattern="[0-9]*">
+    </div>
+  {% endif %}
+<script type="text/javascript">
+    $(function () {
+         $("#Engraving").on('change',function () {
+            if ($(this).val() == "Add Engraving +$30") {
+                $("#PdpForm2").show();
+                $("#your-name-for-engraving").val('');
+                $("#print-name-for-engraving").text('');
+                $('#PdpForm2 input[type="radio"]:checked').each(function(){
+                     $(this).prop('checked', false);
+                });
+            } else {
+                $("#PdpForm2").hide();
+                $("#your-name-for-engraving").val('');
+                $("#print-name-for-engraving").text('');
+                $('#PdpForm2 input[type="radio"]:checked').each(function(){
+                     $(this).prop('checked', false);
+                });
+            }
+        });
+    });
+  
+</script>
+
+<script>
+  
+	$(document).ready(function() 
+	{
+	    $('#your-name-for-engraving').keyup(function(e) {
+	        var txtVal = $(this).val();
+	        $('#print-name-for-engraving').text(txtVal);
+          
+	    });
+            if ($("#Engraving").val() == "Add Engraving +$30") {
+                $("#PdpForm2").show();
+                $("#your-name-for-engraving").val('');
+                $("#print-name-for-engraving").val('');
+                $('#PdpForm2 input[type="radio"]:checked').each(function(){
+                     $(this).prop('checked', false);
+                });
+            } else {
+                $("#PdpForm2").hide();
+                $("#your-name-for-engraving").val('');
+                $("#print-name-for-engraving").val('');
+                $('#PdpForm2 input[type="radio"]:checked').each(function(){
+                     $(this).prop('checked', false);
+                });
+            }
+});
+</script>
+  <script>
+  
+  $(document).ready(function(){
+    $("#selectedFont").on("click",function(){
+      $(".fontFamilyList").toggleClass("hidden")
+    })
+
+     $(".fontFamilyList li a").on("click",function(){
+      var dataFont = $(this).attr("data-font");
+      $("#selectedFont").find('span').text(dataFont.replaceAll("'",''))
+       $("#selectedFont").css({"font-family":dataFont})
+         $("#print-name-for-engraving").css({"font-family":dataFont})
+      $(".fontFamilyList").toggleClass("hidden")
+    })
+  })
+</script>
+ <!-- custom-code end -->
+	<script>
+		$(document).ready(function() {
+    		$(".engravings").on('change',function() {
+  console.log(this.checked)
+                if(this.checked == true){
+                    $("#PdpForm2").show();
+                  $(".fontStyle").prop("required",true)
+                }else{
+                  $("#PdpForm2").hide();
+                   $(".fontStyle").removeAttr("required")
+                }
+        		// var test = $(this).attr('data-value');
+        		// $("div.desc").hide();
+        		
+    		});
+		});
+	</script>
+ <!-- custom-code end -->
